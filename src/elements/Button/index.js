@@ -24,13 +24,13 @@ export default function Button(props) {
             <span className="sr-only">Loading....</span>
           </>
         ) : (
-          props.children
-        )}
+            props.children
+          )}
       </span>
     );
   }
 
-  if (props.type === "Link") {
+  if (props.type === "link") {
     if (props.isExternal) {
       return (
         <a
@@ -56,14 +56,15 @@ export default function Button(props) {
       );
     }
   }
-  return;
-  <button className={className.join(" ")} style={props.style} onClick={onClick}>
+  return <button className={className.join(" ")}
+    style={props.style}
+    onClick={onClick}>
     {props.children}
   </button>;
 }
 
 Button.propTypes = {
-  type: propTypes.oneOf(["button", "Link"]),
+  type: propTypes.oneOf(["button", "link"]),
   onClick: propTypes.func,
   href: propTypes.string,
   target: propTypes.string,
