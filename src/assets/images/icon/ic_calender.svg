@@ -1,11 +1,11 @@
-<svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
-<rect x="2" y="4" width="23" height="20" rx="2" stroke="white" stroke-width="2"/>
-<path d="M6 14L11 14V19H6L6 14Z" stroke="white" stroke-width="2"/>
+<svg width="25" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="1" y="3" width="23" height="20" rx="2" stroke="white" stroke-width="2"/>
+<path d="M5 13H10V18H5L5 13Z" stroke="white" stroke-width="2"/>
 <mask id="path-3-inside-1" fill="white">
-<rect x="15" y="13" width="7" height="7" rx="1"/>
+<rect x="14" y="12" width="7" height="7" rx="1"/>
 </mask>
-<rect x="15" y="13" width="7" height="7" rx="1" stroke="white" stroke-width="4" mask="url(#path-3-inside-1)"/>
-<path d="M2 9L26 9" stroke="white" stroke-width="2"/>
-<path d="M6 2L6 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
-<path d="M21 2L21 6" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<rect x="14" y="12" width="7" height="7" rx="1" stroke="white" stroke-width="4" mask="url(#path-3-inside-1)"/>
+<path d="M1 8L25 8" stroke="white" stroke-width="2"/>
+<path d="M5 1L5 5" stroke="white" stroke-width="2" stroke-linecap="round"/>
+<path d="M20 1L20 5" stroke="white" stroke-width="2" stroke-linecap="round"/>
 </svg>

@@ -2,9 +2,7 @@ import React from 'react'
 import Fade from 'react-reveal/Fade';
 import ImageHero from 'assets/images/heroimg.jpg';
 import ImageHero_ from 'assets/images/framehero.jpg';
-import IconCities from 'assets/images/icon/ic_cities.svg';
-import IconTraveler from 'assets/images/icon/ic_trevler.svg';
-import IconTreasure from 'assets/images/icon/ic_treasure.svg';
+
 
 import Button from 'elements/Button';
 
@@ -37,7 +35,7 @@ export default function Hero(props) {
                         <div className="row" style={{ marginTop: 80 }}>
                             <div className="col-auto" style={{ marginRight: 35 }}>
                                 <img width="36" height="36"
-                                    src={IconTraveler}
+                                    src="/images/ic_trevler.svg"
                                     alt={`${props.data.travelers} Travelers`} />
                                 <h6 className="mt-3">
                                     {formatNumber(props.data.travelers)}{" "}
@@ -48,7 +46,7 @@ export default function Hero(props) {
                             </div>
                             <div className="col-auto" style={{ marginRight: 35 }}>
                                 <img width="36" height="36"
-                                    src={IconTreasure}
+                                    src="/images/ic_treasure.svg"
                                     alt={`${props.data.treasures} Treasures`} />
                                 <h6 className="mt-3">
                                     {formatNumber(props.data.treasures)}{" "}
@@ -59,7 +57,7 @@ export default function Hero(props) {
                             </div>
                             <div className="col-auto">
                                 <img width="36" height="36"
-                                    src={IconCities}
+                                    src="/images/ic_cities.svg"
                                     alt={`${props.data.cities} Cities`} />
                                 <h6 className="mt-3">
                                     {formatNumber(props.data.cities)}{" "}
